@@ -1,0 +1,122 @@
+@font-face {
+    src: url("../fonts/Nunito-bold.ttf");
+    font-family: NunitoBold;
+}
+
+body {
+    margin: 0;
+    font-family: NunitoBold, sans-serif;
+    background: linear-gradient(to right, #FFFFFB 50%, #F8F8FA 50%);
+    padding: 27px 0 191px 0;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -5px;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+}
+
+#title span {
+    font-size: 45px;
+    color: #D72F3F;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-title {
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin: 112px 0 7px 0;
+}
+
+#form-description {
+    max-width: 452px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 42px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-name {
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+    margin-bottom: 5px;
+}
+
+input:not([type="checkbox"]) {
+    max-width: 452px;
+    border: 0;
+    border-bottom: 1px solid #C6C6C4;
+    outline: 0;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+#forms input:not([type="checkbox"]) {
+    width: 100%;
+}
+
+::placeholder {
+    color: #323232;
+}
+
+#checkbox {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#checkbox span {
+    color: #636363;
+}
+
+form button {
+    width: 210px;
+    height: 70px;
+    background: #DD3142;
+    border-radius: 40px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 21px 68px;
+    margin: 0 auto;
+}
+
+form a {
+    text-align: center;
+    margin-top: 44px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    text-decoration: none;
+}
+
+#image {
+    position: relative;
+    left: 50px;
+}
